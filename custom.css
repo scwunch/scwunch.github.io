@@ -9,11 +9,10 @@
 - - - - - - - - - - - - - - - - - - - - - */
 
 .local-pledge.select {
-    background: lightgreen;
+    top: -36px;
+    margin-bottom: -36px;
 }
 
-.select.medium, 
-.field.select.addr,
-.textarea {
-    background: lightgreen;
+.local-pledge.select label {
+    display: none;
 }
