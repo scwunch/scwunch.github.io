@@ -31,3 +31,19 @@
     display: none;
 }
 
+.submit {
+    background: #03254e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    padding: 15px 30px !important;
+    cursor: pointer;
+    -webkit-transition: color .4s,border-color .4s,background-color .4s;
+    -o-transition: color .4s,border-color .4s,background-color .4s;
+    transition: color .4s,border-color .4s,background-color .4s;
+}
+
+.submit:hover {
+    background: #427f49;
+}
