@@ -46,3 +46,30 @@
 .submit:hover {
     background: #427f49;
 }
+
+/*
+.local-pledge.select {
+    background: lightgreen;
+}
+
+.select.medium,
+.field.select.addr {
+    background: lightgreen;
+} 
+*/
+
+
+/* ----- EMBED - Source: https://www.wufoo.com/guides/iframe-scrolling-options/----- */
+
+body.embed, html.embed {
+  /* margin:0 !important; */
+  overflow:auto !important; /* this one was changed */
+  /* background:none !important; */
+}
+/*
+.embed #container{
+  width:100% !important;
+  border:none !important;
+  background:none !important;
+}
+.embed form{margin:0 !important} */
