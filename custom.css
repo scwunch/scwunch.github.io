@@ -47,7 +47,7 @@
     background: #427f49;
 }
 
-
+/* Just testing to see if the css actually loads
 .local-pledge.select {
     background: lightgreen;
 }
@@ -56,14 +56,14 @@
 .field.select.addr {
     background: lightgreen;
 } 
-
+*/
 
 
 /* ----- EMBED - Source: https://www.wufoo.com/guides/iframe-scrolling-options/----- */
 
-body.embed, html.embed {
+.embed {
   /* margin:0 !important; */
-  overflow:auto !important; /* this one was changed */
+  overflow:auto; /* this one was changed */
   /* background:none !important; */
 }
 /*
